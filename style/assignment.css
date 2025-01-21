@@ -293,7 +293,7 @@
     border-radius: 47px;
     margin-left: 30px;
     position: relative;
-    margin-top: -30px;
+    top: -25px;
 }
 .btn-2{
     background-color:#95B226 ;
@@ -306,7 +306,7 @@
     font-weight: 500;
     margin-left: 30px;
     position: relative;
-    margin-top: -30px;
+    top: -22px;
 
 }
 .btn-3{
@@ -320,7 +320,7 @@
     font-weight: 500;
     margin-left: 30px;
     position: relative;
-    margin-top: -30px;
+    top: -22px;
 }
 .btn-4{
     background-color:black ;
@@ -333,6 +333,9 @@
     border-radius: 12px;
     margin-top: 80px;
     margin-bottom: 60px;
+    position: relative;
+    left: 320px;
+
 
 }
 .stories-img{
@@ -365,7 +368,9 @@
     color:#FFFFFF ;
     font-weight: 400;
     font-size: 1.25rem;
-    margin-bottom: 20px;
+    position: relative;
+    top: -50px;
+    
 
 
 }
@@ -388,16 +393,43 @@
     color: #FFFFFF;
     font-weight: bold;
     font-size: 26px;
+    position: relative;
+    top: -13px;
 
 }
 .footer-img{
     margin-left: 10px;
 }
 .footer-section{
-    padding: 140px;
+    padding: 100px;
+    
     
 }
 .footer-contant{
-    padding: 50px;
-    
+    padding: 100px;
+}
+.set{
+    position: relative;
+    left: -10px;
+    top: -20px;
+}
+.fb{
+    position: relative;
+    top: -13px;
+    left: -8px;
+}
+
+
+
+
+/* media query style */
+
+@media screen and (max-width: 576px) {
+   .benner, .card-container{
+    display: grid;
+    flex-direction: column;
+   }
+   .benner-contant{
+    order: 2;
+   }
 }
