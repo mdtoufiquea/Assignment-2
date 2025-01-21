@@ -160,16 +160,16 @@
     box-shadow: 0 0 18.3px 0.94px rgba(0, 0, 0, 0.05);
     padding: 31px;
     text-align: center;
-    background-image:linear-gradient(45deg, rgba(255, 255, 255, 0), #DEF5FF) ;
+    background-image:linear-gradient( #DEF5FF, #FFFFFF 30%) ;
 }
 .cardss{
-    background-image: linear-gradient(1deg, rgba(255, 255, 255, 0), #FFF4DC);
+    background-image: linear-gradient( #FFF4DC, #FFFFFF 30%);
     border: 1px solid #FFF4DC ;
 
 }
 .cards{
     margin-right: 0;
-    background-image: linear-gradient(1deg, rgba(255, 255, 255, 0), #EEE1FF);
+    background-image: linear-gradient( #EEE1FF, #FFFFFF 30%);
     border: 1px solid #EEE1FF ;
 }
 .vew-1{
@@ -226,6 +226,19 @@
     margin-top: 1px;
     font-weight: bold;
     color: #FFFFFF;
+}
+
+/* our stories style */
+.our-stories{
+    background: url(../assets/bg.png),
+    linear-gradient(#FFFFFF 30%, #f0ce92);
+    
+}
+
+.stories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 
