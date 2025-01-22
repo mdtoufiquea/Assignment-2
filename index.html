@@ -7,13 +7,27 @@
     <link rel="stylesheet" href="style/assignment.css">
 </head>
 <body class="quicksand-normal">
+
+    <!-- this is header -->
     <header>
-        <nav class="navber display-flex">
-            <div class="father display-flex">
-                <img class="nav-img " src="assets/logo.png" alt="">
-            <h3 class="brand">SCHOOL</h3>
+
+        <!-- navber -->
+
+        <nav class="navbar">
+            <div class="brand-container">
+                <img class="nav-img" src="assets/logo.png" alt="School Logo">
+                <h3 class="brand">SCHOOL</h3>
             </div>
-            <ul class="link-container display-flex">
+            <!-- Hidden checkbox for menu toggle -->
+            <input type="checkbox" class="menu-toggle" id="menu-toggle">  
+    
+            <label for="menu-toggle" class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+    
+            <ul class="link-container">
                 <li class="link-item"><a href="" class="link-1">Home</a></li>
                 <li class="link-item"><a href="" class="link-2">About</a></li>
                 <li class="link-item"><a href="" class="link-3">Facilities</a></li>
@@ -21,6 +35,10 @@
             </ul>
             <button class="btn-primary">Contact</button>
         </nav>
+        <marquee class="marquee" behavior="" direction="">My name is Toufique</marquee>
+
+        <!-- benner section -->
+
         <div class="benner display-flex width">
             <div class="benner-contant">
                 <h3 class="benner-title"><span class="part-1">Empowering</span><br>
@@ -30,9 +48,15 @@
             </div>
             <img contenteditable="more" src="assets/hero-kids.png" alt="" class="benner-img">
         </div>
+       
     </header>
+        <!-- thih is main section -->
+
 
     <main>
+
+        <!-- Standard Curriculum section -->
+
         <section class="section-1">
             <h3 class="title">Standard Curriculum</h3>
             <div class="card-container width">
@@ -62,6 +86,9 @@
                 </div>
             </div>
         </section>
+
+        <!-- chalenge section  -->
+
         <section class="let display-flex">
             <div class="display-flex">
                 <h1 class="container"><p class="tag"><</p></h1>
@@ -70,6 +97,9 @@
             <h1 class="container-2"><p class="tag-2">></p></h1>
            </div>
         </section>
+
+        <!-- Our Stories section  -->
+
         <section class="our-stories">
 
             <h2 class="stories-title-0">Our Stories</h2>
@@ -118,6 +148,8 @@
         </section>
        
     </main>
+
+    <!-- this is footer section  -->
 
     <footer class="footer ">
        <div class="footer-section width display-flex ">
