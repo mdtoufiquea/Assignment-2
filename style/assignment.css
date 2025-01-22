@@ -425,6 +425,15 @@
 /* media query style */
 
 @media screen and (max-width: 576px) {
+
+    .brand, .btn-primary{
+        visibility: hidden;
+        display: none;
+    }
+    .link-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .benner,
     .card-container,
     .footer-section{
@@ -446,7 +455,8 @@
     .stories{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        overflow: scroll;
+        margin: 5px;
+        overflow-x: scroll;
         
     }
     .stories-container-1{
