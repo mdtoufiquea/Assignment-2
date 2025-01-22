@@ -446,15 +446,15 @@
         gap: 10px;
     }
     .card{
-        width: 330px;
+        width: 320px;
     }
     .cardss{
-        width: 330px;
+        width: 320px;
     }
     
     .stories{
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 5px;
         margin: 5px;
         overflow-x: scroll;
         
@@ -464,7 +464,17 @@
         display: none;
     }
     .stories-container-2{
-        width: 100%;
+       width: 100%;
+    }
+    .btn-2{
+        width: 150px;
+        position: relative;
+        left: -5px;
+    }
+    .btn-3{
+        width: 150px;
+        position: relative;
+        left: -5px;
     }
     .btn-4{
         position: relative;
